@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Order History</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(rgb(192, 162, 234), rgb(40, 6, 98));
+        }
+
+        .message {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 100px;
+            color: rgb(34, 15, 117);
+        }
+
+        .shopping-info {
+            color: white;
+            font-size: 16px; /* Small font size */
+            margin-top: 200px; /* Adjust as needed */
+            text-align: center;
+        }
+
+        .shop-button {
+            position: absolute;
+            bottom: 20px;
+            right: 10px; /* Adjust right position */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff; /* White background */
+            color: #6568a0; /* Text color */
+            padding: 10px 20px; /* Adjust padding */
+            border-radius: 5px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Font size */
+            transition: background-color 3 ease; /* Smooth transition */
+        }
+
+        .shop-button:hover {
+            background-color: #224eac; /* Change background color on hover */
+        }
+
+        .shopping-cart-icon {
+            margin-right: 10px; /* Spacing between icon and text */
+        }
+    </style>
+</head>
+<body>
+    <p class="message">
+        <strong>You don't have any order history🥲</strong>
+    </p>
+
+    <a href="cart.html" class="shop-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/633/633600.png" alt="Shopping Cart Icon" class="shopping-cart-icon" width="20" height="20">
+        Go back to shop
+    </a>
+</body>
+</html>
