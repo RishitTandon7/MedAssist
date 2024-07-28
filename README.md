@@ -59,25 +59,7 @@ app.py: The main Flask application file containing routes and logic for handling
 medications_data: A dictionary containing medications, dosages, and usage instructions for various diseases.
 identify_disease(): A function that identifies a possible disease based on provided symptoms.
 identify_injury(): A function that identifies a possible injury based on provided symptoms.
-Example
-User Sends SMS:
-Copy code
-fever, cough
-Bot Response:
-less
 
-Based on your symptoms, it seems you might have Influenza (Flu). We recommend Oseltamivir (Tamiflu). Here are the details:
-Dosage for adults: 75 mg twice daily for 5 days
-Dosage for children: Dose based on weight: 3 mg/kg twice daily for 5 days (max 75 mg per dose)
-When to take: Start within 48 hours of symptom onset for best results.
-You can purchase it from: https://www.netmeds.com/prescriptions/antiflu-75mg-capsule-10-s
-Troubleshooting
-Ensure your Flask app is running and accessible via Ngrok.
-Double-check your Twilio credentials and webhook URL configuration.
-Verify that you have installed all dependencies correctly.
-
-License
-This project is licensed under the MIT License.
 
 
 
